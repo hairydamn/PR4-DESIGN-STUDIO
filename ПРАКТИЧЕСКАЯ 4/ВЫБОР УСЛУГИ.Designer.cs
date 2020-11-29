@@ -76,6 +76,7 @@
             // comboBox1
             // 
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "РАЗРАБОТКА ЛЕНДИНГА",
@@ -83,16 +84,18 @@
             "РЕКЛАМНЫЙ БАННЕР"});
             this.comboBox1.Location = new System.Drawing.Point(53, 295);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(228, 21);
+            this.comboBox1.Size = new System.Drawing.Size(228, 23);
             this.comboBox1.TabIndex = 9;
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.Snow;
             this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.NAMEUSLUGA,
             this.TIMEWORK,
             this.PRICE});
+            this.listView1.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(339, 295);

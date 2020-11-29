@@ -113,6 +113,16 @@ namespace ПРАКТИЧЕСКАЯ_4.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PRE_ORDER_SCREEN1 {
+            get {
+                object obj = ResourceManager.GetObject("PRE-ORDER SCREEN1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap заказать_BUTTON {
             get {
                 object obj = ResourceManager.GetObject("заказать BUTTON", resourceCulture);

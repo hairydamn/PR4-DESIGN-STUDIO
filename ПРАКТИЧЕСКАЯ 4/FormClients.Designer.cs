@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.listView1 = new System.Windows.Forms.ListView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.NAME = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SURNAME = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.PHONE = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.STATUS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listView1
@@ -46,6 +46,7 @@
             this.SURNAME,
             this.PHONE,
             this.STATUS});
+            this.listView1.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(51, 195);
@@ -55,6 +56,26 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // NAME
+            // 
+            this.NAME.Text = "ИМЯ";
+            this.NAME.Width = 163;
+            // 
+            // SURNAME
+            // 
+            this.SURNAME.Text = "ФАМИЛИЯ";
+            this.SURNAME.Width = 172;
+            // 
+            // PHONE
+            // 
+            this.PHONE.Text = "ТЕЛЕФОН";
+            this.PHONE.Width = 284;
+            // 
+            // STATUS
+            // 
+            this.STATUS.Text = "СТАТУС ЗАКАЗА";
+            this.STATUS.Width = 332;
             // 
             // comboBox1
             // 
@@ -90,26 +111,6 @@
             this.button4.Size = new System.Drawing.Size(288, 62);
             this.button4.TabIndex = 13;
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // NAME
-            // 
-            this.NAME.Text = "ИМЯ";
-            this.NAME.Width = 163;
-            // 
-            // SURNAME
-            // 
-            this.SURNAME.Text = "ФАМИЛИЯ";
-            this.SURNAME.Width = 172;
-            // 
-            // PHONE
-            // 
-            this.PHONE.Text = "ТЕЛЕФОН";
-            this.PHONE.Width = 284;
-            // 
-            // STATUS
-            // 
-            this.STATUS.Text = "СТАТУС ЗАКАЗА";
-            this.STATUS.Width = 332;
             // 
             // FormClients
             // 
